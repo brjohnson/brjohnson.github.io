@@ -23,3 +23,25 @@
 	text-transform: uppercase;
 	font-size: 4em;
 }
+
+.icon {
+	height: 75px;
+	width: 75px;
+	display: inline-block;
+}
+
+.twitter {
+	background-image: url("../assets/twitter-white.png");
+}
+
+.github {
+	background-image: url("../assets/gh-white.png");
+}
+
+.dribbble {
+	background-image: url("../assets/dribbble-white.png");
+}
+
+.linkedin {
+	background-image: url("../assets/linkedin-white.png");
+}
