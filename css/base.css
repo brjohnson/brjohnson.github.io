@@ -27,10 +27,9 @@
 .social {
 	margin: 0 auto;
 	text-align: center;
-}
-
-a.social {
-	text-decoration: none;
+	a {
+		text-decoration: none;
+	}
 }
 
 .icon {
