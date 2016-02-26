@@ -27,10 +27,11 @@
 .social {
 	margin: 0 auto;
 	text-align: center;
-	a {
+}
+
+a {
 		text-decoration: none;
 	}
-}
 
 .icon {
 	height: 50px;
