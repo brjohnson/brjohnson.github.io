@@ -1,12 +1,16 @@
 .body {
+	height: 500px;
 	background-image: url("../assets/wash.JPG");
+	background-size: 1200px;
+	background-position-x: center;
+	background-repeat: no-repeat;
 }
 
 .perimeter {
 	border: solid 5px white;
-	padding: 5%;
-	margin: 10px 10%;
-	height: 100vh;
+	padding: 50px 5%;
+	margin: 50px;
+	height: 100%;
 }
 
 .name {
