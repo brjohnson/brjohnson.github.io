@@ -23,13 +23,17 @@ html {
 }
 
 .name {
+	display: none;
+}
+
+.mobile-title {
 	text-align: center;
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 	font-weight: 100;
 	letter-spacing: 3px;
 	color: white;
 	text-transform: uppercase;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .social {
@@ -68,4 +72,20 @@ div.icon {
 
 .linkedin {
 	background-image: url("../assets/linkedin-white.png");
+}
+
+@media screen and (min-width: 480px) {
+	.name {
+	text-align: center;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 100;
+	letter-spacing: 3px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 4em;
+	}
+
+	.mobile-title {
+		display: none;
+	}
 }
