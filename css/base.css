@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  height: 100vh;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -34,6 +35,7 @@ html {
 .social {
 	margin: 0 auto;
 	text-align: center;
+	padding: 0 10px;
 }
 
 a {
@@ -50,7 +52,6 @@ div.icon {
 	background-size: 25px;
 	background-repeat: no-repeat;
 	background-position-x: center;
-	margin-right: 30px;
 }
 
 .twitter {
