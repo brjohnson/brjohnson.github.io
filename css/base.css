@@ -6,7 +6,7 @@ html {
 }
 
 .body {
-	height: 500px;
+	height: 90vh;
 	background-image: url("../assets/wash.JPG");
 	background-size: 1500px;
 	background-position-x: center;
@@ -50,6 +50,7 @@ div.icon {
 	background-size: 25px;
 	background-repeat: no-repeat;
 	background-position-x: center;
+	margin-right: 30px;
 }
 
 .twitter {
