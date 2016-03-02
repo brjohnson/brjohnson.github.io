@@ -1,2 +1,2 @@
-# brjohnson.github.io
-The universe...what a concept.
+# Hello world...
+My first website! How hip. Check it out at [barrettjohnson.me](http://barrettjohnson.me).
