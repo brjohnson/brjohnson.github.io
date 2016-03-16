@@ -26,6 +26,10 @@ html {
 	display: none;
 }
 
+.description {
+	display: none;
+}
+
 .mobile-title {
 	text-align: center;
 	font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -43,6 +47,7 @@ html {
 
 a {
 		text-decoration: none;
+		color: white;
 	}
 
 .icon {
@@ -73,6 +78,10 @@ div.icon {
 	background-image: url("../assets/linkedin-white.png");
 }
 
+.insta {
+	background-image: url("../assets/instagram-white.png");
+}
+
 @media screen and (min-width: 480px) {
 	.name {
 	display: block;
@@ -87,5 +96,29 @@ div.icon {
 
 	.mobile-title {
 		display: none;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	.description {
+		display: block;
+	}
+
+	p.description {
+	text-align: center;
+	color: white;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 200;
+	letter-spacing: 0.5px;
+	width: 50%;
+	margin: 20px auto 250px;
+	line-height: 1.5;
+	}
+
+	p.description a:hover {
+	color: #233D3E;
+	text-decoration: none;
 	}
 }
